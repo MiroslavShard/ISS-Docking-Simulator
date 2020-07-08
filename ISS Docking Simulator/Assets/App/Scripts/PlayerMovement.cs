@@ -4,16 +4,28 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Force")]
     public float forceMovement = 0.1f;
     public float forceRotation = 0.1f;
 
+    [Header("Movement")]
     public float move_x = 0f;
     public float move_y = 0f;
     public float move_z = 0f;
 
+    [Header("Rotation")]
     public float rotate_x = 0f;
     public float rotate_y = 0f;
     public float rotate_z = 0f;
+
+    [Header("Information")]
+    public double info_move_x = 0f;
+    public double info_move_y = 0f;
+    public double info_move_z = 0f;
+    [Space(5)]
+    public double info_rotate_x = 0f;
+    public double info_rotate_y = 0f;
+    public double info_rotate_z = 0f;
 
     private void Update()
     {
@@ -95,26 +107,31 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.Translate(Vector3.forward * move_z * Time.deltaTime);
         transform.Translate(Vector3.right * move_x * Time.deltaTime);
         transform.Translate(Vector3.up * move_y * Time.deltaTime);
+        transform.Translate(Vector3.forward * move_z * Time.deltaTime);
 
-        transform.Rotate(new Vector3(transform.rotation.x + rotate_x, transform.rotation.y + rotate_y, transform.rotation.z + rotate_z) * Time.deltaTime);
+        transform.Rotate(Vector3.right * rotate_x * Time.deltaTime);
+        transform.Rotate(Vector3.up * rotate_y * Time.deltaTime);
+        transform.Rotate(Vector3.forward * rotate_z * Time.deltaTime);
     }
 
     private void RotateX(int scale)
     {
         rotate_x += forceRotation * scale;
+        info_rotate_x += forceRotation * scale;
     }
 
     private void RotateY(int scale)
     {
         rotate_y += forceRotation * scale;
+        info_rotate_y += forceRotation * scale;
     }
 
     private void RotateZ(int scale)
     {
         rotate_z += forceRotation * scale;
+        info_rotate_z += forceRotation * scale;
     }
 
     private void MoveX(int scale)
