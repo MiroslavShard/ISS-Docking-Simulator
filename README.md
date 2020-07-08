@@ -1,4 +1,4 @@
 # ISS Docking Simulator
 
-### Developer:
+## Developer:
 © Miroslav Stetsiuk (@MiroslavShard) - 2020
