@@ -11,6 +11,11 @@ This game will be available on platforms:
 # Can I use this project?
 Of course yes, but <b>you must leave a message</b> `© Miroslav Stetsiuk (@MiroslavShard)`. Also, leave a link to this [GitHub repository](https://github.com/MiroslavShard/ISS-Docking-Simulator).
 
-Current version of Unity Engine: 2019.3.14f1 (LTS)
+# Build with
+Unity Engine: 2019.3.14f1 (LTS)
 
+# License
+This project is licensed under the GPU 3.0 License - see the (LICENSE.md)[https://github.com/MiroslavShard/ISS-Docking-Simulator/blob/master/LICENSE] file for details.
+
+# Authors
 © Miroslav Stetsiuk (@MiroslavShard) - 2020
