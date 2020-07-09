@@ -1,5 +1,5 @@
 # ISS Docking Simulator
-My goal is to copy the game from [SpaceX](https://iss-sim.spacex.com/) and add some gameplay changes. Also, my goal is to add an <b>autopilot</b> for automatic docking with the ISS.
+My goal is to copy the game from [SpaceX](https://iss-sim.spacex.com/) and add some changes to the gameplay. Also my goal is to add an <b>autopilot</b> for automatic docking with the ISS.
 
 # Platforms
 This game will be available on platforms:
