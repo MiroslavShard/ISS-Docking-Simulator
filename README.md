@@ -17,5 +17,10 @@ Unity Engine: 2019.3.14f1 (LTS)
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/MiroslavShard/ISS-Docking-Simulator/blob/master/LICENSE) file for details.
 
+## Contacts
+Twitter [@MiroslavShard](https://twitter.com/miroslavshard)
+
+LinkedIn [@MiroslavShard](https://www.linkedin.com/in/miroslavshard)
+
 ## Author
 © Miroslav Stetsiuk (@MiroslavShard) - 2020
